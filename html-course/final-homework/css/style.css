@@ -1,0 +1,105 @@
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* upperHeader */
+
+.upperHeader {
+    height: 28px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    background-color: rgb(246, 246, 246);
+}
+
+#fbLink {
+    color: rgb(68, 96, 160);
+    padding-right: 3px;
+}
+
+.divideBar {
+    width: 1px;
+    height: 16px;
+    margin: 0 8px;
+    background-color: rgb(204, 204, 204);
+}
+
+#twLink {
+    color: rgb(33, 180, 237);
+    padding-left: 3px;
+}
+
+.upperHeader a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.upperHeader img {
+    margin-right: 3px;
+}
+
+/* lowerHeader */
+
+.lowerHeader {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerHeader h1 a {
+    display: block;
+    background-image: url(../images/logo.png);
+    width: 224px;
+    height: 50px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav li a {
+    display: block;
+    font-size: 14px;
+    padding: 18px 10px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(0, 204, 153);
+}
+
+.nav li a.navActive {
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(0, 204, 153);
+}
+
+/* banner */
+
+.banner {
+    height: 346px;
+    position: relative;
+    background-image: url(../images/banner.png);
+}
+
+.slogan {
+    box-sizing: border-box;
+    position: absolute;
+    top: 93px;
+    width: 100%;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.15);
+    
+    padding: 40px 20px;
+}
+
+.slogan h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
