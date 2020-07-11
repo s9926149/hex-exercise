@@ -13,17 +13,29 @@ body {
 
 .upperHeader {
     height: 28px;
-    font-size: 16px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     padding-right: 15px;
     background-color: rgb(246, 246, 246);
 }
 
+.upperHeader ul {
+    font-size: 16px;
+    padding: 6px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 #fbLink {
     color: rgb(68, 96, 160);
-    padding-right: 3px;
+}
+
+.upperHeader ul li:first-child a::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 16px;
+    margin: 0 8px;
+    background-color: rgb(204, 204, 204);
 }
 
 .divideBar {
@@ -35,7 +47,6 @@ body {
 
 #twLink {
     color: rgb(33, 180, 237);
-    padding-left: 3px;
 }
 
 .upperHeader a {
