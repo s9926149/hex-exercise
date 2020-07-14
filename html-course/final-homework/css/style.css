@@ -104,7 +104,7 @@ body {
 .banner {
     height: 346px;
     position: relative;
-    background-image: url(../images/banner.png);
+    /* background-image: url(../images/banner.png); */
 }
 
 .slogan {
@@ -116,6 +116,7 @@ body {
     background: rgba(0, 0, 0, 0.15);
     
     padding: 40px 20px;
+    z-index: 100;
 }
 
 .slogan h2 {
