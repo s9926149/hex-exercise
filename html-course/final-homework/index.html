@@ -12,6 +12,8 @@
 
     <title>最終作業</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lightbox/lightbox.css">
+    <link rel="stylesheet" href="css/lightbox-custom.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -53,7 +55,9 @@
                 <ul class="courseIntro">
                     <li class="course">
                         <div class="imgContainer">
-                            <img src="images/html.png" alt="HTML5 icon">
+                            <a href="images/html.png" data-lightbox="course" data-title="HTML 5">
+                                <img src="images/html.png" alt="HTML5 icon">
+                            </a>
                         </div>
                         <h3>HTML5 基礎教學</h3>
                         <p>主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，
@@ -61,7 +65,9 @@
                     </li>
                     <li class="course">
                         <div class="imgContainer">
-                            <img src="images/rwd.png" alt="RWD icon">
+                            <a href="images/rwd.png" data-lightbox="course" data-title="Responsive Web Design">
+                                <img src="images/rwd.png" alt="RWD icon">
+                            </a>
                         </div>
                         <h3>響應式網站設計</h3>
                         <p>響 應 式 網 站 設 計 (Responsive Web Design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。
@@ -69,7 +75,9 @@
                     </li>
                     <li class="course">
                         <div class="imgContainer">
-                            <img src="images/jQuery.png" alt="jQuery icon">
+                            <a href="images/jQuery.png" data-lightbox="course" data-title="jQuery">
+                                <img src="images/jQuery.png" alt="jQuery icon">
+                            </a>
                         </div>
                         <h3>jQuery 實戰教學</h3>
                         <p>本課程有以下特色</p>
@@ -165,6 +173,11 @@
             </main>
         </header>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="js/lightbox/lightbox.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
