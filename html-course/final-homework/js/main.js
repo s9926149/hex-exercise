@@ -1,6 +1,3 @@
-
-
-
 $(function () {
     // lightbox settings
     lightbox.option({
@@ -25,4 +22,11 @@ $(function () {
         event.preventDefault();
         $('html,body').animate({ scrollTop: 0}, 750);
     });
+
+    // setup productList menu
+    $('.prodIntro > a').click(
+        function (event) {
+            $(this).parent().toggleClass("active")
+        }
+    );
 });
