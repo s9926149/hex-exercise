@@ -7,6 +7,26 @@ body {
     margin: 0 auto;
 }
 
+.toTop {
+    position: fixed;
+    background-color: rgb(0, 204, 153);
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-size: 64px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.toTop:hover {
+    background-color: rgb(0, 244, 183);
+    transition: background-color 0.1s;
+}
+
+.toTop i {
+    color: black;
+    text-decoration: none;
+}
+
 /* =========== */
 /* upperHeader */
 /* =========== */
